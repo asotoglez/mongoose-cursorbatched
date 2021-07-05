@@ -26,9 +26,9 @@ mongoose
     const cursor = await User.find({}).cursorBatched({ batchSize: 5 });
 
     for await (const batch of cursor) {
-      console.log('batch', batch);
       // Here you can run your process with the data...
       // Example:
+      console.log('batch', batch);
       await timeout(5000);
     }
   });
