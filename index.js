@@ -1,5 +1,5 @@
 module.exports = (schema) => {
-  schema.query.cursorBatched = async function* ({ batchSize = 10 }) {
+  schema.query.cursorBatched = async function* ({ batchSize = 20 }) {
     const cursor = await this.cursor({ batchSize });
     let batch = [];
     let hasNext = false;

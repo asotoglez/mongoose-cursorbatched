@@ -5,6 +5,11 @@ A mongoose plugin that allows iterations over batches with cursor.
 $ npm i --save mongoose-cursorbatched
 ```
 
+## Parameters
+```
+  batchSize: Number of records per batch (default: 20)
+```
+
 ## How to use
 ```js
 const mongoose = require('mongoose');
