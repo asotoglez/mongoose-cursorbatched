@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/asotoglez/mongoose-cursorBatched.git"
+    "url": "git+https://github.com/asotoglez/mongoose-cursorbatched.git"
   },
   "keywords": [
     "mongoose",
@@ -21,7 +21,7 @@
   "author": "Alejandro Soto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/asotoglez/mongoose-cursorBatched/issues"
+    "url": "https://github.com/asotoglez/mongoose-cursorbatched/issues"
   },
-  "homepage": "https://github.com/asotoglez/mongoose-cursorBatched#readme"
+  "homepage": "https://github.com/asotoglez/mongoose-cursorbatched#readme"
 }
