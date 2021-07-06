@@ -1,6 +1,6 @@
 {
   "name": "mongoose-cursorbatched",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A mongoose plugin that allows iterations over batches with cursor.",
   "main": "index.js",
   "scripts": {
